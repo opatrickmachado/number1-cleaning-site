@@ -1,0 +1,13 @@
+{
+    "functions": {
+        "api/index.php": {
+            "runtime": "vercel-deno@1.0.0"
+        }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ]
+}
